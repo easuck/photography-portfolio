@@ -5,16 +5,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="_5gA8RAkXCXnErTj0t4wyj7BMMg5wWftMAdkOAladN4" />
+      </head>
       <body>
         {children}
       </body>
     </html>
   );
 }
-
 export const metadata = {
   title: 'Фотограф в Омске. Анастасия Кульбида',
   description: 'Фотосессии в Омске: одиночные, парные, семейные. Съемка свадеб и концертов. Если вы давно хотели обновить свой фотоальбом, то вы обратились по адресу!',
+
   openGraph: {
     title: 'Фотограф в Омске. Анастасия Кульбида',
     type: 'website',
